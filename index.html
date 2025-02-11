@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Agung Raditya</title>
+  <!-- Panggil Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Link ke file CSS eksternal -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header & Navigasi -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Geospatial Analyst</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Projek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <!-- Section Hero -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Halo, saya Agung Raditya</h1>
+        <p>Geographic Information System Professional | Geospatial Analyst | AI Enthusiast</p>
+      </div>
+    </section>
+  </header>
+
+  <!-- Tentang Saya -->
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Hai, Saya Agung Raditya. Professional Sistem Informasi Geografi dengan pengalaman 8+ tahun dalam analisis, pengelolaan, dan visualisasi data geospasial.  Menguasai berbagai perangkat lunak SIG (ArcGIS Pro, QGIS, dll.) dan terus mengembangkan keterampilan dalam database, Google Earth Engine, dan Python.  Berpengalaman dalam pengembangan WebGIS, machine learning untuk lingkungan, dan optimalisasi jaringan.  Siap memanfaatkan teknologi geospasial untuk tantangan kompleks.</p>
+    </div>
+  </section>
+
+  <!-- Projek-projek -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projek Saya</h2>
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <img src="pict/geoportal.png" alt="Project 1">
+          <div class="project-info">
+            <h3>Geoportal BPIW</h3>
+            <p>GEOPORTAL - Badan Pengembangan Infrastruktur Wilayah merupakan sebuah portal web yang menyajikan dan mempublikasikan berbagai informasi serta data spasial terkait pengembangan infrastruktur wilayah. Melalui geoportal ini, pengguna dapat mengakses, melihat, dan menganalisis peta-peta tematik, data geospasial, serta informasi infrastruktur strategis</p>
+            <a href="https://sigi.pu.go.id/portalpupr/apps/experiencebuilder/experience/?id=386d7ea6657840b493a51a8791f46ca5">Lihat Detail</a>
+          </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <img src="pict/katalog data.png" alt="Project 2">
+          <div class="project-info">
+            <h3>Katalog Data Spasial</h3>
+            <p>webgis yang berisikan kumpulan data spasial untuk kebutuhan analisis di Badan Pengembangan Infrastruktur Wilayah</p>
+            <a href="https://bpiw.pu.go.id/webgis">Lihat Detail</a>
+          </div>
+        </div>
+        <!-- Tambahkan project-card lain sesuai kebutuhan -->
+         <!-- Project Card 2 -->
+        <div class="project-card">
+            <img src="pict/web sda.png" alt="Project 2">
+            <div class="project-info">
+              <h3>WebGIS Inspeksi Infrastruktur Sumber Daya Air</h3>
+              <p>Merancang dan mengembangkan platform WebGIS yang mengintegrasikan aliran data real-time dan visualisasi geospasial untuk memantau kondisi infrastruktur sumber daya air yang kritis.</p>
+              <a href="https://geo-kba.pusair-pu.go.id/">Lihat Detail</a>
+            </div>
+          </div>
+          <!-- Tambahkan project-card lain sesuai kebutuhan -->
+         <!-- Project Card 2 -->
+         <div class="project-card">
+            <img src="pict/mapbook.png" alt="Project 2">
+            <div class="project-info">
+              <h3>Map Book Analisis Urban Sprawl Metropolitan</h3>
+              <p>Penelitian ini menganalisis perubahan luas area terbangun dan distribusi CO dan NO2 di Jabodetabekpunjur, Kedungsepur, dan Gerbangkertasusila. Menggunakan citra Landsat dan Sentinel yang diproses di Google Earth Engine, penelitian ini mengidentifikasi peningkatan luas area terbangun dan perubahan distribusi CO dan NO2 yang terkait dengan pembangunan infrastruktur dan aktivitas manusia. Temuan ini dapat memberikan informasi bagi kebijakan perencanaan tata ruang dan pengelolaan lingkungan di wilayah tersebut.</p>
+              <a href="https://drive.google.com/file/d/1JYdEglhIV9LDZwRgb6PFZeuzESuhyFiK/view?usp=drive_link">Lihat Detail</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact">
+    <div class="container">
+      <h2>Kontak Saya</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Email Anda" required>
+        <textarea name="message" placeholder="Pesan Anda" required></textarea>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Agung Raditya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <!-- Sisipkan SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="script.js"></script>
+</body>
+</html>
